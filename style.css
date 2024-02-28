@@ -1,0 +1,231 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background: #000;
+}
+.back{
+  background: url("header_img.png");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+nav .img img{
+  width: 50%;
+  margin: 25px 0px 0px 15px;
+  
+}
+nav .buttons{
+  display: flex;
+}
+.buttons .btn{
+ margin: 22px 15px 15px 5px;
+ width: 73px;
+ height: 32px;
+ background-color: red;
+ border: none;
+ border-radius: 5px;
+ color: white;
+ font-weight: 600;
+}
+.buttons .opt{
+  width: 65px;
+  height: 32px;
+  margin-top: 22px;
+  color: white;
+  background: #101010;
+  border-radius: 5px;
+}
+.main{
+  text-align: center;
+  color: white;
+}
+.main h1{
+  margin-top: 48px;
+}
+.main h3{
+  margin-top: 15px;
+  font-weight: 500;
+}
+.main p{
+  margin-top: 25px;
+  font-size: 20px;
+}
+.input{
+  display: flex;
+  justify-content: center;
+}
+.input input{
+  margin: 20px;
+  width: 70%;
+  height: 42px;
+  background: transparent ;
+  border: 1px solid gray;
+  border-radius: 4px
+}
+::placeholder{
+  color: #b7b7b7;
+}
+.inside{
+  padding: 3px 0px 0px 10px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.button button{
+  width: 45%;
+  height: 45px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.division{
+  width: 100%;
+  height: 10px;
+  background-color: #232323;
+}
+.first{
+  text-align: center;
+  color: white;
+  height: 500px;
+  background: black;
+}
+.first h1{
+  padding-top: 45px;
+}
+.first p{
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+.feature{
+  width: 300px;
+}
+.second{
+  text-align: center;
+  color: white;
+  height: 500px;
+  background: black;
+}
+.feature2{
+  width: 300px;
+  padding-top: 30px;
+}
+.second h1{
+  padding-top: 45px;
+}
+.second p{
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+.feature3{
+  width: 360px;
+  height: 300px;
+}
+.feature4{
+  width: 300px;
+  padding-top: 30px;
+}
+.buttons-{
+  color: white;
+  height: 920px;
+  background: black;
+}
+.buttons- h1{
+  text-align: center;
+  padding-top: 45px;
+}
+.buttons- button{
+  display: block;
+  height: 70px;
+  background: #232323;
+  color: white;
+  border: none;
+  width: 320px;
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+.one{
+  padding-right: 140px;
+  margin-top: 30px;
+}
+.two{
+  padding-right: 72px;
+  margin-top: 10px;
+}
+.three{
+  padding-right: 109px;
+  margin-top: 10px;
+}
+.four{
+  padding-right: 125px;
+  margin-top: 10px;
+}
+.five{
+  padding-right: 102px;
+  margin-top: 10px;
+}
+.six{
+  padding-right: 120px;
+  margin-top: 10px;
+}
+.third{
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+.buttons- input{
+margin: 20px;
+  width: 70%;
+  height: 42px;
+  background: #0f0f0f;
+  border: 1px solid gray;
+  border-radius: 4px
+}
+.buttons- .btn1{
+  width: 45%;
+  height: 45px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 28%;
+}
+.last{
+  height: 450px
+}
+.footer{
+  color: #777;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 22px;
+  margin-top: 11px;
+}
+.eng{
+  height: 90px;
+}
+.eng1{
+  height: 32px;
+  color: white;
+  background: #101010;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.eng p{
+  color: #777;
+  margin-top: 15px;
+  margin-left: 15px;
+}
